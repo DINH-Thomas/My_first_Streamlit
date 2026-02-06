@@ -15,7 +15,7 @@ def top_n_emitters(df, start_year=2008, end_year=2011, nb_displayed=10):
     #return the fig
     return top_10_countries
 
-st.title("Consommation de CO2 pour les 5 pays les plus consommateurs")
+st.title("Consommation de CO2 pour les n pays les plus consommateurs")
 st.write('Welcome to my first Streamlit app!')
 
 start_year = st.select_slider("Choisis l'année de départ"
